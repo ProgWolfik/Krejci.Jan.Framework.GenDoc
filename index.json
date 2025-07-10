@@ -1,0 +1,112 @@
+{
+  "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.html",
+    "title": "Class EntityChange | SyncEntity Documentation",
+    "summary": "Class EntityChange Namespace Krejci.Jan.Framework.SyncEntity.Abstractions Assembly Krejci.Jan.Framework.SyncEntity.Abstractions.dll Represents a single change made to an entity, including the type of entity, the type of change action performed, and the serialized JSON data of the entity. public class EntityChange Inheritance object EntityChange Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Action Gets or sets the action performed on the entity (Added, Updated, Deleted). public EnumSyncAction Action { get; set; } Property Value EnumSyncAction EntityType Gets or sets the name of the entity type that was changed. public string EntityType { get; set; } Property Value string JsonData Gets or sets the JSON-serialized representation of the entity after the change. public string JsonData { get; set; } Property Value string"
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.html",
+    "title": "Class EntityChangeSet | SyncEntity Documentation",
+    "summary": "Class EntityChangeSet Namespace Krejci.Jan.Framework.SyncEntity.Abstractions Assembly Krejci.Jan.Framework.SyncEntity.Abstractions.dll Represents a collection of entity changes to be processed or notified together. public class EntityChangeSet Inheritance object EntityChangeSet Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Changes Gets or sets the list of individual entity changes included in this change set. public List<EntityChange> Changes { get; set; } Property Value List<EntityChange>"
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.html",
+    "title": "Enum EnumSyncAction | SyncEntity Documentation",
+    "summary": "Enum EnumSyncAction Namespace Krejci.Jan.Framework.SyncEntity.Abstractions Assembly Krejci.Jan.Framework.SyncEntity.Abstractions.dll Defines the types of synchronization actions that can be performed on entities. public enum EnumSyncAction Fields Added = 0 Indicates a new entity has been added. Deleted = 2 Indicates an existing entity has been deleted. Updated = 1 Indicates an existing entity has been updated."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.html",
+    "title": "Interface ISyncEntity | SyncEntity Documentation",
+    "summary": "Interface ISyncEntity Namespace Krejci.Jan.Framework.SyncEntity.Abstractions Assembly Krejci.Jan.Framework.SyncEntity.Abstractions.dll Represents an entity that can be synchronized. Requires a unique identifier property. public interface ISyncEntity Properties Id Gets or sets the unique identifier of the entity. long Id { get; set; } Property Value long"
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Abstractions.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.html",
+    "title": "Namespace Krejci.Jan.Framework.SyncEntity.Abstractions | SyncEntity Documentation",
+    "summary": "Namespace Krejci.Jan.Framework.SyncEntity.Abstractions Classes EntityChange Represents a single change made to an entity, including the type of entity, the type of change action performed, and the serialized JSON data of the entity. EntityChangeSet Represents a collection of entity changes to be processed or notified together. Interfaces ISyncEntity Represents an entity that can be synchronized. Requires a unique identifier property. Enums EnumSyncAction Defines the types of synchronization actions that can be performed on entities."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.html",
+    "title": "Interface ISyncStore | SyncEntity Documentation",
+    "summary": "Interface ISyncStore Namespace Krejci.Jan.Framework.SyncEntity.Client.Core Assembly Krejci.Jan.Framework.SyncEntity.Client.Core.dll Interface defining a synchronization store capable of applying sync actions and initializing with a collection of entities. public interface ISyncStore Methods ApplySync(EnumSyncAction, string) Applies a synchronization action (add, update, delete) using serialized entity data. void ApplySync(EnumSyncAction action, string json) Parameters action EnumSyncAction The synchronization action to apply. json string The JSON serialized entity data. Initialize(IEnumerable<ISyncEntity>) Initializes the store with a collection of entities. void Initialize(IEnumerable<ISyncEntity> entities) Parameters entities IEnumerable<ISyncEntity> Entities to initialize the store with."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.html",
+    "title": "Class SyncManager | SyncEntity Documentation",
+    "summary": "Class SyncManager Namespace Krejci.Jan.Framework.SyncEntity.Client.Core Assembly Krejci.Jan.Framework.SyncEntity.Client.Core.dll Manages thread-safe access to synchronization stores keyed by entity type. Supports applying entity changes and initializing stores with existing entities. Ensures thread safety when accessing internal collections, while assuming individual store operations are themselves thread-safe. public class SyncManager Inheritance object SyncManager Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Stores Gets or sets the dictionary of synchronization stores with thread-safe access. The getter returns a copy of the internal dictionary to prevent external modifications without locking. The setter replaces the internal dictionary in a thread-safe manner. This allows external code to add, remove, or replace ISyncStore instances safely. public Dictionary<string, ISyncStore> Stores { get; set; } Property Value Dictionary<string, ISyncStore> Methods ApplyChangeSet(EntityChangeSet) Applies a set of entity changes to the corresponding synchronization stores. For each change, finds or creates the appropriate store based on the entity type name, then applies the change asynchronously. public void ApplyChangeSet(EntityChangeSet changeSet) Parameters changeSet EntityChangeSet The set of entity changes to apply. InitializeStores(IEnumerable<ISyncEntity>) Initializes synchronization stores with existing entities grouped by their type name. Ensures stores exist for each entity type group and initializes them with the entities. public void InitializeStores(IEnumerable<ISyncEntity> entities) Parameters entities IEnumerable<ISyncEntity> Collection of existing entities to initialize stores with."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html",
+    "title": "Class SyncStore<T> | SyncEntity Documentation",
+    "summary": "Class SyncStore<T> Namespace Krejci.Jan.Framework.SyncEntity.Client.Core Assembly Krejci.Jan.Framework.SyncEntity.Client.Core.dll A thread-safe generic store for synchronizing entities of type T. It maintains an internal dictionary keyed by entity ID and supports applying synchronization actions such as add, update, and delete based on serialized JSON data. public class SyncStore<T> : ISyncStore where T : class, ISyncEntity Type Parameters T The type of entity to store, implementing ISyncEntity. Inheritance object SyncStore<T> Implements ISyncStore Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ApplySync(EnumSyncAction, string) Applies a synchronization action (add, update, delete) to the store based on the provided JSON-serialized entity data. public void ApplySync(EnumSyncAction action, string json) Parameters action EnumSyncAction The synchronization action to perform. json string The JSON string representing the entity to sync. GetItems() Gets a thread-safe snapshot copy of the current stored entities as a read-only dictionary. public IReadOnlyDictionary<long, T> GetItems() Returns IReadOnlyDictionary<long, T> A copy of the internal dictionary of entities keyed by their IDs. Initialize(IEnumerable<ISyncEntity>) Initializes the store with a collection of entities, replacing or adding them by their IDs. public void Initialize(IEnumerable<ISyncEntity> entities) Parameters entities IEnumerable<ISyncEntity> The entities to initialize the store with. Exceptions ArgumentNullException Thrown if entities is null. SetItems(Dictionary<long, T>) Safely replaces the current set of stored entities with the given dictionary. public void SetItems(Dictionary<long, T> items) Parameters items Dictionary<long, T> A dictionary of entities to store, keyed by their IDs. Exceptions ArgumentNullException Thrown if items is null."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Client.Core.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.html",
+    "title": "Namespace Krejci.Jan.Framework.SyncEntity.Client.Core | SyncEntity Documentation",
+    "summary": "Namespace Krejci.Jan.Framework.SyncEntity.Client.Core Classes SyncManager Manages thread-safe access to synchronization stores keyed by entity type. Supports applying entity changes and initializing stores with existing entities. Ensures thread safety when accessing internal collections, while assuming individual store operations are themselves thread-safe. SyncStore<T> A thread-safe generic store for synchronizing entities of type T. It maintains an internal dictionary keyed by entity ID and supports applying synchronization actions such as add, update, and delete based on serialized JSON data. Interfaces ISyncStore Interface defining a synchronization store capable of applying sync actions and initializing with a collection of entities."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.html",
+    "title": "Class SignalRSyncClient | SyncEntity Documentation",
+    "summary": "Class SignalRSyncClient Namespace Krejci.Jan.Framework.SyncEntity.Client Assembly Krejci.Jan.Framework.SyncEntity.Client.dll SignalR synchronization client that listens for entity change notifications from a SignalR hub and applies them using the provided SyncManager. public class SignalRSyncClient Inheritance object SignalRSyncClient Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SignalRSyncClient(HubConnection, SyncManager) SignalR synchronization client that listens for entity change notifications from a SignalR hub and applies them using the provided SyncManager. public SignalRSyncClient(HubConnection connection, SyncManager syncManager) Parameters connection HubConnection The SignalR HubConnection used to receive updates. syncManager SyncManager The SyncManager that processes incoming changes. Methods StartListening() Starts listening for \"EntitiesChanged\" events from the SignalR hub. When a change set is received, it is applied to the local SyncManager. public void StartListening()"
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Client.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Client.html",
+    "title": "Namespace Krejci.Jan.Framework.SyncEntity.Client | SyncEntity Documentation",
+    "summary": "Namespace Krejci.Jan.Framework.SyncEntity.Client Classes SignalRSyncClient SignalR synchronization client that listens for entity change notifications from a SignalR hub and applies them using the provided SyncManager."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.html",
+    "title": "Interface IEntitySyncNotifier | SyncEntity Documentation",
+    "summary": "Interface IEntitySyncNotifier Namespace Krejci.Jan.Framework.SyncEntity.Server.Core Assembly Krejci.Jan.Framework.SyncEntity.Server.Core.dll Defines a contract for notifying clients about changes to entities. Implementations should handle broadcasting or dispatching notifications whenever a set of entity changes occurs. public interface IEntitySyncNotifier Methods NotifyEntityChangesAsync(EntityChangeSet) Notifies subscribers or clients asynchronously about a batch of entity changes. Task NotifyEntityChangesAsync(EntityChangeSet changeSet) Parameters changeSet EntityChangeSet The collection of entity changes to notify about. Returns Task A task that represents the asynchronous notification operation."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Server.Core.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Server.Core.html",
+    "title": "Namespace Krejci.Jan.Framework.SyncEntity.Server.Core | SyncEntity Documentation",
+    "summary": "Namespace Krejci.Jan.Framework.SyncEntity.Server.Core Interfaces IEntitySyncNotifier Defines a contract for notifying clients about changes to entities. Implementations should handle broadcasting or dispatching notifications whenever a set of entity changes occurs."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.html",
+    "title": "Class DbContextSyncExtensions | SyncEntity Documentation",
+    "summary": "Class DbContextSyncExtensions Namespace Krejci.Jan.Framework.SyncEntity.Server Assembly Krejci.Jan.Framework.SyncEntity.Server.dll Extension methods for DbContext to support synchronization notifications. public static class DbContextSyncExtensions Inheritance object DbContextSyncExtensions Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods SaveChangesWithSyncAsync(DbContext, IEntitySyncNotifier, CancellationToken) Saves changes to the database and notifies the synchronization system about entities that were added, updated, or deleted. public static Task<int> SaveChangesWithSyncAsync(this DbContext db, IEntitySyncNotifier notifier, CancellationToken ct = default) Parameters db DbContext The DbContext instance. notifier IEntitySyncNotifier An implementation of IEntitySyncNotifier to notify clients of changes. ct CancellationToken Optional cancellation token. Returns Task<int> The number of state entries written to the database. Exceptions NotSupportedException Thrown if an entity state is encountered that is not supported (other than Added, Modified, or Deleted)."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.html",
+    "title": "Class SignalRSyncNotifier | SyncEntity Documentation",
+    "summary": "Class SignalRSyncNotifier Namespace Krejci.Jan.Framework.SyncEntity.Server Assembly Krejci.Jan.Framework.SyncEntity.Server.dll Implementation of IEntitySyncNotifier that uses SignalR to notify connected clients about entity changes. Notifications are filtered and sent only to clients belonging to roles that have permission to receive updates for the changed entity types. public class SignalRSyncNotifier : IEntitySyncNotifier Inheritance object SignalRSyncNotifier Implements IEntitySyncNotifier Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors SignalRSyncNotifier(IHubContext<SyncHub>) Implementation of IEntitySyncNotifier that uses SignalR to notify connected clients about entity changes. Notifications are filtered and sent only to clients belonging to roles that have permission to receive updates for the changed entity types. public SignalRSyncNotifier(IHubContext<SyncHub> hubContext) Parameters hubContext IHubContext<SyncHub> Properties RoleEntitiesMap Maps roles to the list of entity type names for which they should receive change notifications. public Dictionary<string, List<string>> RoleEntitiesMap { get; } Property Value Dictionary<string, List<string>> Methods NotifyEntityChangesAsync(EntityChangeSet) Notifies connected clients about entity changes, filtering recipients based on roles that have permission to receive updates for the changed entity types. public Task NotifyEntityChangesAsync(EntityChangeSet changeSet) Parameters changeSet EntityChangeSet The set of entity changes to notify about. Returns Task A task representing the asynchronous operation."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Server.SyncHub.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Server.SyncHub.html",
+    "title": "Class SyncHub | SyncEntity Documentation",
+    "summary": "Class SyncHub Namespace Krejci.Jan.Framework.SyncEntity.Server Assembly Krejci.Jan.Framework.SyncEntity.Server.dll SignalR hub responsible for managing client connections and grouping them by user roles. When a client connects, they are automatically added to a group corresponding to their role. When a client disconnects, they are removed from that group. This allows broadcasting messages selectively to users based on their roles. public class SyncHub : Hub, IDisposable Inheritance object Hub SyncHub Implements IDisposable Inherited Members Hub.Dispose(bool) Hub.Dispose() Hub.Clients Hub.Context Hub.Groups object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods OnConnectedAsync() Called when a new client connects to the hub. Retrieves the user's role from their claims and adds the connection to the corresponding group. public override Task OnConnectedAsync() Returns Task OnDisconnectedAsync(Exception?) Called when a client disconnects from the hub. Removes the connection from the role group to stop receiving role-based notifications. public override Task OnDisconnectedAsync(Exception? exception) Parameters exception Exception The exception that caused the disconnect, if any. Returns Task"
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Server.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Server.html",
+    "title": "Namespace Krejci.Jan.Framework.SyncEntity.Server | SyncEntity Documentation",
+    "summary": "Namespace Krejci.Jan.Framework.SyncEntity.Server Classes DbContextSyncExtensions Extension methods for DbContext to support synchronization notifications. SignalRSyncNotifier Implementation of IEntitySyncNotifier that uses SignalR to notify connected clients about entity changes. Notifications are filtered and sent only to clients belonging to roles that have permission to receive updates for the changed entity types. SyncHub SignalR hub responsible for managing client connections and grouping them by user roles. When a client connects, they are automatically added to a group corresponding to their role. When a client disconnects, they are removed from that group. This allows broadcasting messages selectively to users based on their roles."
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html",
+    "title": "Class ClientCoreSyncStoreTest | SyncEntity Documentation",
+    "summary": "Class ClientCoreSyncStoreTest Namespace Krejci.Jan.Framework.SyncEntity.Test.UnitTests Assembly Krejci.Jan.Framework.SyncEntity.Test.dll public class ClientCoreSyncStoreTest Inheritance object ClientCoreSyncStoreTest Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ApplySync_Should_AddOrUpdate_Entity() [Fact] public void ApplySync_Should_AddOrUpdate_Entity() ApplySync_Should_Delete_Entity() [Fact] public void ApplySync_Should_Delete_Entity() Initialize_Should_Load_Entities() [Fact] public void Initialize_Should_Load_Entities()"
+  },
+  "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.html",
+    "title": "Namespace Krejci.Jan.Framework.SyncEntity.Test.UnitTests | SyncEntity Documentation",
+    "summary": "Namespace Krejci.Jan.Framework.SyncEntity.Test.UnitTests Classes ClientCoreSyncStoreTest"
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | SyncEntity Documentation",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | SyncEntity Documentation",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | SyncEntity Documentation",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
