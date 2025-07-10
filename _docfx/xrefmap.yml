@@ -1,0 +1,519 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions
+  name: Krejci.Jan.Framework.SyncEntity.Abstractions
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.html
+  commentId: N:Krejci.Jan.Framework.SyncEntity.Abstractions
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions
+  nameWithType: Krejci.Jan.Framework.SyncEntity.Abstractions
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange
+  name: EntityChange
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange
+  nameWithType: EntityChange
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.Action
+  name: Action
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.html#Krejci_Jan_Framework_SyncEntity_Abstractions_EntityChange_Action
+  commentId: P:Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.Action
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.Action
+  nameWithType: EntityChange.Action
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.Action*
+  name: Action
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.html#Krejci_Jan_Framework_SyncEntity_Abstractions_EntityChange_Action_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.Action
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.Action
+  nameWithType: EntityChange.Action
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.EntityType
+  name: EntityType
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.html#Krejci_Jan_Framework_SyncEntity_Abstractions_EntityChange_EntityType
+  commentId: P:Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.EntityType
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.EntityType
+  nameWithType: EntityChange.EntityType
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.EntityType*
+  name: EntityType
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.html#Krejci_Jan_Framework_SyncEntity_Abstractions_EntityChange_EntityType_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.EntityType
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.EntityType
+  nameWithType: EntityChange.EntityType
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.JsonData
+  name: JsonData
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.html#Krejci_Jan_Framework_SyncEntity_Abstractions_EntityChange_JsonData
+  commentId: P:Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.JsonData
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.JsonData
+  nameWithType: EntityChange.JsonData
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.JsonData*
+  name: JsonData
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.html#Krejci_Jan_Framework_SyncEntity_Abstractions_EntityChange_JsonData_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.JsonData
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.JsonData
+  nameWithType: EntityChange.JsonData
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet
+  name: EntityChangeSet
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet
+  nameWithType: EntityChangeSet
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.Changes
+  name: Changes
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.html#Krejci_Jan_Framework_SyncEntity_Abstractions_EntityChangeSet_Changes
+  commentId: P:Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.Changes
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.Changes
+  nameWithType: EntityChangeSet.Changes
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.Changes*
+  name: Changes
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.html#Krejci_Jan_Framework_SyncEntity_Abstractions_EntityChangeSet_Changes_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.Changes
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.Changes
+  nameWithType: EntityChangeSet.Changes
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction
+  name: EnumSyncAction
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction
+  nameWithType: EnumSyncAction
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.Added
+  name: Added
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.html#Krejci_Jan_Framework_SyncEntity_Abstractions_EnumSyncAction_Added
+  commentId: F:Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.Added
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.Added
+  nameWithType: EnumSyncAction.Added
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.Deleted
+  name: Deleted
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.html#Krejci_Jan_Framework_SyncEntity_Abstractions_EnumSyncAction_Deleted
+  commentId: F:Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.Deleted
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.Deleted
+  nameWithType: EnumSyncAction.Deleted
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.Updated
+  name: Updated
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.html#Krejci_Jan_Framework_SyncEntity_Abstractions_EnumSyncAction_Updated
+  commentId: F:Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.Updated
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.Updated
+  nameWithType: EnumSyncAction.Updated
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity
+  name: ISyncEntity
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity
+  nameWithType: ISyncEntity
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.Id
+  name: Id
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.html#Krejci_Jan_Framework_SyncEntity_Abstractions_ISyncEntity_Id
+  commentId: P:Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.Id
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.Id
+  nameWithType: ISyncEntity.Id
+- uid: Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.Id*
+  name: Id
+  href: api/Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.html#Krejci_Jan_Framework_SyncEntity_Abstractions_ISyncEntity_Id_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.Id
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.Id
+  nameWithType: ISyncEntity.Id
+- uid: Krejci.Jan.Framework.SyncEntity.Client
+  name: Krejci.Jan.Framework.SyncEntity.Client
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.html
+  commentId: N:Krejci.Jan.Framework.SyncEntity.Client
+  fullName: Krejci.Jan.Framework.SyncEntity.Client
+  nameWithType: Krejci.Jan.Framework.SyncEntity.Client
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core
+  name: Krejci.Jan.Framework.SyncEntity.Client.Core
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.html
+  commentId: N:Krejci.Jan.Framework.SyncEntity.Client.Core
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core
+  nameWithType: Krejci.Jan.Framework.SyncEntity.Client.Core
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore
+  name: ISyncStore
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore
+  nameWithType: ISyncStore
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.ApplySync(Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction,System.String)
+  name: ApplySync(EnumSyncAction, string)
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.html#Krejci_Jan_Framework_SyncEntity_Client_Core_ISyncStore_ApplySync_Krejci_Jan_Framework_SyncEntity_Abstractions_EnumSyncAction_System_String_
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.ApplySync(Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction,System.String)
+  name.vb: ApplySync(EnumSyncAction, String)
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.ApplySync(Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction, string)
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.ApplySync(Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction, String)
+  nameWithType: ISyncStore.ApplySync(EnumSyncAction, string)
+  nameWithType.vb: ISyncStore.ApplySync(EnumSyncAction, String)
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.ApplySync*
+  name: ApplySync
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.html#Krejci_Jan_Framework_SyncEntity_Client_Core_ISyncStore_ApplySync_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.ApplySync
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.ApplySync
+  nameWithType: ISyncStore.ApplySync
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.Initialize(System.Collections.Generic.IEnumerable{Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity})
+  name: Initialize(IEnumerable<ISyncEntity>)
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.html#Krejci_Jan_Framework_SyncEntity_Client_Core_ISyncStore_Initialize_System_Collections_Generic_IEnumerable_Krejci_Jan_Framework_SyncEntity_Abstractions_ISyncEntity__
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.Initialize(System.Collections.Generic.IEnumerable{Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity})
+  name.vb: Initialize(IEnumerable(Of ISyncEntity))
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.Initialize(System.Collections.Generic.IEnumerable<Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity>)
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.Initialize(System.Collections.Generic.IEnumerable(Of Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity))
+  nameWithType: ISyncStore.Initialize(IEnumerable<ISyncEntity>)
+  nameWithType.vb: ISyncStore.Initialize(IEnumerable(Of ISyncEntity))
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.Initialize*
+  name: Initialize
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.html#Krejci_Jan_Framework_SyncEntity_Client_Core_ISyncStore_Initialize_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.Initialize
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.Initialize
+  nameWithType: ISyncStore.Initialize
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager
+  name: SyncManager
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager
+  nameWithType: SyncManager
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.ApplyChangeSet(Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet)
+  name: ApplyChangeSet(EntityChangeSet)
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncManager_ApplyChangeSet_Krejci_Jan_Framework_SyncEntity_Abstractions_EntityChangeSet_
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.ApplyChangeSet(Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet)
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.ApplyChangeSet(Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet)
+  nameWithType: SyncManager.ApplyChangeSet(EntityChangeSet)
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.ApplyChangeSet*
+  name: ApplyChangeSet
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncManager_ApplyChangeSet_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.ApplyChangeSet
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.ApplyChangeSet
+  nameWithType: SyncManager.ApplyChangeSet
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.InitializeStores(System.Collections.Generic.IEnumerable{Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity})
+  name: InitializeStores(IEnumerable<ISyncEntity>)
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncManager_InitializeStores_System_Collections_Generic_IEnumerable_Krejci_Jan_Framework_SyncEntity_Abstractions_ISyncEntity__
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.InitializeStores(System.Collections.Generic.IEnumerable{Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity})
+  name.vb: InitializeStores(IEnumerable(Of ISyncEntity))
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.InitializeStores(System.Collections.Generic.IEnumerable<Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity>)
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.InitializeStores(System.Collections.Generic.IEnumerable(Of Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity))
+  nameWithType: SyncManager.InitializeStores(IEnumerable<ISyncEntity>)
+  nameWithType.vb: SyncManager.InitializeStores(IEnumerable(Of ISyncEntity))
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.InitializeStores*
+  name: InitializeStores
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncManager_InitializeStores_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.InitializeStores
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.InitializeStores
+  nameWithType: SyncManager.InitializeStores
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.Stores
+  name: Stores
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncManager_Stores
+  commentId: P:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.Stores
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.Stores
+  nameWithType: SyncManager.Stores
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.Stores*
+  name: Stores
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncManager_Stores_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.Stores
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.Stores
+  nameWithType: SyncManager.Stores
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1
+  name: SyncStore<T>
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1
+  name.vb: SyncStore(Of T)
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore(Of T)
+  nameWithType: SyncStore<T>
+  nameWithType.vb: SyncStore(Of T)
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.ApplySync(Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction,System.String)
+  name: ApplySync(EnumSyncAction, string)
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncStore_1_ApplySync_Krejci_Jan_Framework_SyncEntity_Abstractions_EnumSyncAction_System_String_
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.ApplySync(Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction,System.String)
+  name.vb: ApplySync(EnumSyncAction, String)
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>.ApplySync(Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction, string)
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore(Of T).ApplySync(Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction, String)
+  nameWithType: SyncStore<T>.ApplySync(EnumSyncAction, string)
+  nameWithType.vb: SyncStore(Of T).ApplySync(EnumSyncAction, String)
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.ApplySync*
+  name: ApplySync
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncStore_1_ApplySync_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.ApplySync
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>.ApplySync
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore(Of T).ApplySync
+  nameWithType: SyncStore<T>.ApplySync
+  nameWithType.vb: SyncStore(Of T).ApplySync
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.GetItems
+  name: GetItems()
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncStore_1_GetItems
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.GetItems
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>.GetItems()
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore(Of T).GetItems()
+  nameWithType: SyncStore<T>.GetItems()
+  nameWithType.vb: SyncStore(Of T).GetItems()
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.GetItems*
+  name: GetItems
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncStore_1_GetItems_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.GetItems
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>.GetItems
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore(Of T).GetItems
+  nameWithType: SyncStore<T>.GetItems
+  nameWithType.vb: SyncStore(Of T).GetItems
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.Initialize(System.Collections.Generic.IEnumerable{Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity})
+  name: Initialize(IEnumerable<ISyncEntity>)
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncStore_1_Initialize_System_Collections_Generic_IEnumerable_Krejci_Jan_Framework_SyncEntity_Abstractions_ISyncEntity__
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.Initialize(System.Collections.Generic.IEnumerable{Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity})
+  name.vb: Initialize(IEnumerable(Of ISyncEntity))
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>.Initialize(System.Collections.Generic.IEnumerable<Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity>)
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore(Of T).Initialize(System.Collections.Generic.IEnumerable(Of Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity))
+  nameWithType: SyncStore<T>.Initialize(IEnumerable<ISyncEntity>)
+  nameWithType.vb: SyncStore(Of T).Initialize(IEnumerable(Of ISyncEntity))
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.Initialize*
+  name: Initialize
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncStore_1_Initialize_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.Initialize
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>.Initialize
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore(Of T).Initialize
+  nameWithType: SyncStore<T>.Initialize
+  nameWithType.vb: SyncStore(Of T).Initialize
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.SetItems(System.Collections.Generic.Dictionary{System.Int64,`0})
+  name: SetItems(Dictionary<long, T>)
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncStore_1_SetItems_System_Collections_Generic_Dictionary_System_Int64__0__
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.SetItems(System.Collections.Generic.Dictionary{System.Int64,`0})
+  name.vb: SetItems(Dictionary(Of Long, T))
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>.SetItems(System.Collections.Generic.Dictionary<long, T>)
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore(Of T).SetItems(System.Collections.Generic.Dictionary(Of Long, T))
+  nameWithType: SyncStore<T>.SetItems(Dictionary<long, T>)
+  nameWithType.vb: SyncStore(Of T).SetItems(Dictionary(Of Long, T))
+- uid: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.SetItems*
+  name: SetItems
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html#Krejci_Jan_Framework_SyncEntity_Client_Core_SyncStore_1_SetItems_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore`1.SetItems
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>.SetItems
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore(Of T).SetItems
+  nameWithType: SyncStore<T>.SetItems
+  nameWithType.vb: SyncStore(Of T).SetItems
+- uid: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient
+  name: SignalRSyncClient
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient
+  nameWithType: SignalRSyncClient
+- uid: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.#ctor(Microsoft.AspNetCore.SignalR.Client.HubConnection,Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager)
+  name: SignalRSyncClient(HubConnection, SyncManager)
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.html#Krejci_Jan_Framework_SyncEntity_Client_SignalRSyncClient__ctor_Microsoft_AspNetCore_SignalR_Client_HubConnection_Krejci_Jan_Framework_SyncEntity_Client_Core_SyncManager_
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.#ctor(Microsoft.AspNetCore.SignalR.Client.HubConnection,Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager)
+  name.vb: New(HubConnection, SyncManager)
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.SignalRSyncClient(Microsoft.AspNetCore.SignalR.Client.HubConnection, Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager)
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.New(Microsoft.AspNetCore.SignalR.Client.HubConnection, Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager)
+  nameWithType: SignalRSyncClient.SignalRSyncClient(HubConnection, SyncManager)
+  nameWithType.vb: SignalRSyncClient.New(HubConnection, SyncManager)
+- uid: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.#ctor*
+  name: SignalRSyncClient
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.html#Krejci_Jan_Framework_SyncEntity_Client_SignalRSyncClient__ctor_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.SignalRSyncClient
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.New
+  nameWithType: SignalRSyncClient.SignalRSyncClient
+  nameWithType.vb: SignalRSyncClient.New
+- uid: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.StartListening
+  name: StartListening()
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.html#Krejci_Jan_Framework_SyncEntity_Client_SignalRSyncClient_StartListening
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.StartListening
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.StartListening()
+  nameWithType: SignalRSyncClient.StartListening()
+- uid: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.StartListening*
+  name: StartListening
+  href: api/Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.html#Krejci_Jan_Framework_SyncEntity_Client_SignalRSyncClient_StartListening_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.StartListening
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.StartListening
+  nameWithType: SignalRSyncClient.StartListening
+- uid: Krejci.Jan.Framework.SyncEntity.Server
+  name: Krejci.Jan.Framework.SyncEntity.Server
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.html
+  commentId: N:Krejci.Jan.Framework.SyncEntity.Server
+  fullName: Krejci.Jan.Framework.SyncEntity.Server
+  nameWithType: Krejci.Jan.Framework.SyncEntity.Server
+- uid: Krejci.Jan.Framework.SyncEntity.Server.Core
+  name: Krejci.Jan.Framework.SyncEntity.Server.Core
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.Core.html
+  commentId: N:Krejci.Jan.Framework.SyncEntity.Server.Core
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.Core
+  nameWithType: Krejci.Jan.Framework.SyncEntity.Server.Core
+- uid: Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier
+  name: IEntitySyncNotifier
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier
+  nameWithType: IEntitySyncNotifier
+- uid: Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.NotifyEntityChangesAsync(Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet)
+  name: NotifyEntityChangesAsync(EntityChangeSet)
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.html#Krejci_Jan_Framework_SyncEntity_Server_Core_IEntitySyncNotifier_NotifyEntityChangesAsync_Krejci_Jan_Framework_SyncEntity_Abstractions_EntityChangeSet_
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.NotifyEntityChangesAsync(Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet)
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.NotifyEntityChangesAsync(Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet)
+  nameWithType: IEntitySyncNotifier.NotifyEntityChangesAsync(EntityChangeSet)
+- uid: Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.NotifyEntityChangesAsync*
+  name: NotifyEntityChangesAsync
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.html#Krejci_Jan_Framework_SyncEntity_Server_Core_IEntitySyncNotifier_NotifyEntityChangesAsync_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.NotifyEntityChangesAsync
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.NotifyEntityChangesAsync
+  nameWithType: IEntitySyncNotifier.NotifyEntityChangesAsync
+- uid: Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions
+  name: DbContextSyncExtensions
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions
+  nameWithType: DbContextSyncExtensions
+- uid: Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.SaveChangesWithSyncAsync(Microsoft.EntityFrameworkCore.DbContext,Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier,System.Threading.CancellationToken)
+  name: SaveChangesWithSyncAsync(DbContext, IEntitySyncNotifier, CancellationToken)
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.html#Krejci_Jan_Framework_SyncEntity_Server_DbContextSyncExtensions_SaveChangesWithSyncAsync_Microsoft_EntityFrameworkCore_DbContext_Krejci_Jan_Framework_SyncEntity_Server_Core_IEntitySyncNotifier_System_Threading_CancellationToken_
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.SaveChangesWithSyncAsync(Microsoft.EntityFrameworkCore.DbContext,Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier,System.Threading.CancellationToken)
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.SaveChangesWithSyncAsync(Microsoft.EntityFrameworkCore.DbContext, Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier, System.Threading.CancellationToken)
+  nameWithType: DbContextSyncExtensions.SaveChangesWithSyncAsync(DbContext, IEntitySyncNotifier, CancellationToken)
+- uid: Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.SaveChangesWithSyncAsync*
+  name: SaveChangesWithSyncAsync
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.html#Krejci_Jan_Framework_SyncEntity_Server_DbContextSyncExtensions_SaveChangesWithSyncAsync_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.SaveChangesWithSyncAsync
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.SaveChangesWithSyncAsync
+  nameWithType: DbContextSyncExtensions.SaveChangesWithSyncAsync
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier
+  name: SignalRSyncNotifier
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier
+  nameWithType: SignalRSyncNotifier
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.#ctor(Microsoft.AspNetCore.SignalR.IHubContext{Krejci.Jan.Framework.SyncEntity.Server.SyncHub})
+  name: SignalRSyncNotifier(IHubContext<SyncHub>)
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.html#Krejci_Jan_Framework_SyncEntity_Server_SignalRSyncNotifier__ctor_Microsoft_AspNetCore_SignalR_IHubContext_Krejci_Jan_Framework_SyncEntity_Server_SyncHub__
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.#ctor(Microsoft.AspNetCore.SignalR.IHubContext{Krejci.Jan.Framework.SyncEntity.Server.SyncHub})
+  name.vb: New(IHubContext(Of SyncHub))
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.SignalRSyncNotifier(Microsoft.AspNetCore.SignalR.IHubContext<Krejci.Jan.Framework.SyncEntity.Server.SyncHub>)
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.New(Microsoft.AspNetCore.SignalR.IHubContext(Of Krejci.Jan.Framework.SyncEntity.Server.SyncHub))
+  nameWithType: SignalRSyncNotifier.SignalRSyncNotifier(IHubContext<SyncHub>)
+  nameWithType.vb: SignalRSyncNotifier.New(IHubContext(Of SyncHub))
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.#ctor*
+  name: SignalRSyncNotifier
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.html#Krejci_Jan_Framework_SyncEntity_Server_SignalRSyncNotifier__ctor_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.SignalRSyncNotifier
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.New
+  nameWithType: SignalRSyncNotifier.SignalRSyncNotifier
+  nameWithType.vb: SignalRSyncNotifier.New
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.NotifyEntityChangesAsync(Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet)
+  name: NotifyEntityChangesAsync(EntityChangeSet)
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.html#Krejci_Jan_Framework_SyncEntity_Server_SignalRSyncNotifier_NotifyEntityChangesAsync_Krejci_Jan_Framework_SyncEntity_Abstractions_EntityChangeSet_
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.NotifyEntityChangesAsync(Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet)
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.NotifyEntityChangesAsync(Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet)
+  nameWithType: SignalRSyncNotifier.NotifyEntityChangesAsync(EntityChangeSet)
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.NotifyEntityChangesAsync*
+  name: NotifyEntityChangesAsync
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.html#Krejci_Jan_Framework_SyncEntity_Server_SignalRSyncNotifier_NotifyEntityChangesAsync_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.NotifyEntityChangesAsync
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.NotifyEntityChangesAsync
+  nameWithType: SignalRSyncNotifier.NotifyEntityChangesAsync
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.RoleEntitiesMap
+  name: RoleEntitiesMap
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.html#Krejci_Jan_Framework_SyncEntity_Server_SignalRSyncNotifier_RoleEntitiesMap
+  commentId: P:Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.RoleEntitiesMap
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.RoleEntitiesMap
+  nameWithType: SignalRSyncNotifier.RoleEntitiesMap
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.RoleEntitiesMap*
+  name: RoleEntitiesMap
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.html#Krejci_Jan_Framework_SyncEntity_Server_SignalRSyncNotifier_RoleEntitiesMap_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.RoleEntitiesMap
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.RoleEntitiesMap
+  nameWithType: SignalRSyncNotifier.RoleEntitiesMap
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SyncHub
+  name: SyncHub
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SyncHub.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Server.SyncHub
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SyncHub
+  nameWithType: SyncHub
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnConnectedAsync
+  name: OnConnectedAsync()
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SyncHub.html#Krejci_Jan_Framework_SyncEntity_Server_SyncHub_OnConnectedAsync
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnConnectedAsync
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnConnectedAsync()
+  nameWithType: SyncHub.OnConnectedAsync()
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnConnectedAsync*
+  name: OnConnectedAsync
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SyncHub.html#Krejci_Jan_Framework_SyncEntity_Server_SyncHub_OnConnectedAsync_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnConnectedAsync
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnConnectedAsync
+  nameWithType: SyncHub.OnConnectedAsync
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnDisconnectedAsync(System.Exception)
+  name: OnDisconnectedAsync(Exception?)
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SyncHub.html#Krejci_Jan_Framework_SyncEntity_Server_SyncHub_OnDisconnectedAsync_System_Exception_
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnDisconnectedAsync(System.Exception)
+  name.vb: OnDisconnectedAsync(Exception)
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnDisconnectedAsync(System.Exception?)
+  fullName.vb: Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnDisconnectedAsync(System.Exception)
+  nameWithType: SyncHub.OnDisconnectedAsync(Exception?)
+  nameWithType.vb: SyncHub.OnDisconnectedAsync(Exception)
+- uid: Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnDisconnectedAsync*
+  name: OnDisconnectedAsync
+  href: api/Krejci.Jan.Framework.SyncEntity.Server.SyncHub.html#Krejci_Jan_Framework_SyncEntity_Server_SyncHub_OnDisconnectedAsync_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnDisconnectedAsync
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Server.SyncHub.OnDisconnectedAsync
+  nameWithType: SyncHub.OnDisconnectedAsync
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests
+  name: Krejci.Jan.Framework.SyncEntity.Test.UnitTests
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.html
+  commentId: N:Krejci.Jan.Framework.SyncEntity.Test.UnitTests
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests
+  nameWithType: Krejci.Jan.Framework.SyncEntity.Test.UnitTests
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest
+  name: ClientCoreSyncStoreTest
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest
+  nameWithType: ClientCoreSyncStoreTest
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_AddOrUpdate_Entity
+  name: ApplySync_Should_AddOrUpdate_Entity()
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_ApplySync_Should_AddOrUpdate_Entity
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_AddOrUpdate_Entity
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_AddOrUpdate_Entity()
+  nameWithType: ClientCoreSyncStoreTest.ApplySync_Should_AddOrUpdate_Entity()
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_AddOrUpdate_Entity*
+  name: ApplySync_Should_AddOrUpdate_Entity
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_ApplySync_Should_AddOrUpdate_Entity_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_AddOrUpdate_Entity
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_AddOrUpdate_Entity
+  nameWithType: ClientCoreSyncStoreTest.ApplySync_Should_AddOrUpdate_Entity
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Delete_Entity
+  name: ApplySync_Should_Delete_Entity()
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_ApplySync_Should_Delete_Entity
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Delete_Entity
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Delete_Entity()
+  nameWithType: ClientCoreSyncStoreTest.ApplySync_Should_Delete_Entity()
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Delete_Entity*
+  name: ApplySync_Should_Delete_Entity
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_ApplySync_Should_Delete_Entity_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Delete_Entity
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Delete_Entity
+  nameWithType: ClientCoreSyncStoreTest.ApplySync_Should_Delete_Entity
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.Initialize_Should_Load_Entities
+  name: Initialize_Should_Load_Entities()
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_Initialize_Should_Load_Entities
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.Initialize_Should_Load_Entities
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.Initialize_Should_Load_Entities()
+  nameWithType: ClientCoreSyncStoreTest.Initialize_Should_Load_Entities()
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.Initialize_Should_Load_Entities*
+  name: Initialize_Should_Load_Entities
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_Initialize_Should_Load_Entities_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.Initialize_Should_Load_Entities
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.Initialize_Should_Load_Entities
+  nameWithType: ClientCoreSyncStoreTest.Initialize_Should_Load_Entities

@@ -1,0 +1,290 @@
+{
+  "source_base_path": "/home/runner/work/Krejci.Jan.Framework/Krejci.Jan.Framework",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChange.yml\" sourcestartlinenumber=\"1\">Represents a single change made to an entity, including the type of entity,\nthe type of change action performed, and the serialized JSON data of the entity.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet.yml\" sourcestartlinenumber=\"1\">Represents a collection of entity changes to be processed or notified together.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Abstractions.EnumSyncAction.yml\" sourcestartlinenumber=\"1\">Defines the types of synchronization actions that can be performed on entities.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity.yml\" sourcestartlinenumber=\"1\">Represents an entity that can be synchronized.\nRequires a unique identifier property.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Abstractions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Abstractions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Client.Core.ISyncStore.yml\" sourcestartlinenumber=\"1\">Interface defining a synchronization store capable of applying sync actions\nand initializing with a collection of entities.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager.yml\" sourcestartlinenumber=\"1\">Manages thread-safe access to synchronization stores keyed by entity type.\nSupports applying entity changes and initializing stores with existing entities.\nEnsures thread safety when accessing internal collections, while assuming\nindividual store operations are themselves thread-safe.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore-1.yml\" sourcestartlinenumber=\"1\">A thread-safe generic store for synchronizing entities of type <code class=\"typeparamref\">T</code>.\nIt maintains an internal dictionary keyed by entity ID and supports applying synchronization actions\nsuch as add, update, and delete based on serialized JSON data.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Client.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Client.SignalRSyncClient.yml\" sourcestartlinenumber=\"1\">SignalR synchronization client that listens for entity change notifications\nfrom a SignalR hub and applies them using the provided <xref href=\"Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Client.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Client",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier.yml\" sourcestartlinenumber=\"1\">Defines a contract for notifying clients about changes to entities.\nImplementations should handle broadcasting or dispatching notifications\nwhenever a set of entity changes occurs.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Server.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Server.DbContextSyncExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for <xref href=\"Microsoft.EntityFrameworkCore.DbContext\" data-throw-if-not-resolved=\"false\"></xref> to support synchronization notifications.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Server.SignalRSyncNotifier.yml\" sourcestartlinenumber=\"1\">Implementation of <xref href=\"Krejci.Jan.Framework.SyncEntity.Server.Core.IEntitySyncNotifier\" data-throw-if-not-resolved=\"false\"></xref> that uses SignalR to notify connected clients\nabout entity changes. Notifications are filtered and sent only to clients belonging to roles\nthat have permission to receive updates for the changed entity types.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.SyncHub.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.SyncHub.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Server.SyncHub",
+      "Summary": "<p sourcefile=\"api/Krejci.Jan.Framework.SyncEntity.Server.SyncHub.yml\" sourcestartlinenumber=\"1\">SignalR hub responsible for managing client connections and grouping them by user roles.\nWhen a client connects, they are automatically added to a group corresponding to their role.\nWhen a client disconnects, they are removed from that group.\nThis allows broadcasting messages selectively to users based on their roles.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Server.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Server",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Test.UnitTests",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
