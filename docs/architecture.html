@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Introduction | SyncEntity Documentation </title>
+      <title>Architecture | SyncEntity Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Introduction | SyncEntity Documentation ">
+      <meta name="title" content="Architecture | SyncEntity Documentation ">
       
-      
+      <meta name="description" content="Architecture of the SyncEntity library">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ProgWolfik/Krejci.Jan.Framework/blob/master/docs/introduction.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/ProgWolfik/Krejci.Jan.Framework/blob/master/docs/architecture.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,14 +85,33 @@
         </div>
 
         <article data-uid="">
-<h1 id="introduction">Introduction</h1>
+<h1 id="-syncentity-architecture">🧱 SyncEntity Architecture</h1>
 
-<p>SyncEntity is a library for real-time entity synchronization over SignalR in .NET 8 applications. It enables easy sending and receiving of entity changes between clients and the server.</p>
+<p>The SyncEntity library is built on SignalR and uses reflective detection of entity changes.</p>
+<h2 id="-key-components">🔧 Key Components</h2>
+<ul>
+<li><strong>ISyncManager</strong> – manages sending and receiving changes</li>
+<li><strong>ISyncStore<t></t></strong> – stores the state of local entities</li>
+<li><strong>SignalRSyncClient</strong> – client connection to the server-side <code>SyncHub</code></li>
+<li><strong>SyncHub</strong> – SignalR hub on the server that forwards changes to clients</li>
+<li><strong>ISyncEntity</strong> – interface that marks synchronizable entities</li>
+</ul>
+<h2 id="-synchronization-flow">🔁 Synchronization Flow</h2>
+<ol>
+<li>Client sends a change → SyncHub</li>
+<li>Server forwards the change to other clients</li>
+<li>Each client processes the change via its <code>ISyncStore&lt;T&gt;</code></li>
+</ol>
+<h2 id="-extensibility">🧠 Extensibility</h2>
+<ul>
+<li>Support for custom implementation of <code>ISyncStore&lt;T&gt;</code></li>
+<li>Support for dependency injection and unit testing</li>
+</ul>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ProgWolfik/Krejci.Jan.Framework/blob/master/docs/introduction.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ProgWolfik/Krejci.Jan.Framework/blob/master/docs/architecture.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

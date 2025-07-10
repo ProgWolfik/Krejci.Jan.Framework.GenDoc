@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Introduction | SyncEntity Documentation </title>
+      <title>Advanced Usage | SyncEntity Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Introduction | SyncEntity Documentation ">
+      <meta name="title" content="Advanced Usage | SyncEntity Documentation ">
       
-      
+      <meta name="description" content="Advanced scenarios for the SyncEntity library">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/ProgWolfik/Krejci.Jan.Framework/blob/master/docs/introduction.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/ProgWolfik/Krejci.Jan.Framework/blob/master/docs/advanced-usage.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,14 +85,19 @@
         </div>
 
         <article data-uid="">
-<h1 id="introduction">Introduction</h1>
+<h1 id="-advanced-usage-of-syncentity">⚙️ Advanced Usage of SyncEntity</h1>
 
-<p>SyncEntity is a library for real-time entity synchronization over SignalR in .NET 8 applications. It enables easy sending and receiving of entity changes between clients and the server.</p>
+<p>This page describes more complex scenarios you can handle with the library.</p>
+<h2 id="-testing-synchronization">🧪 Testing Synchronization</h2>
+<p>Use <code>FakeSyncStore&lt;T&gt;</code>:</p>
+<pre><code class="lang-csharp">var fakeStore = new FakeSyncStore&lt;MyEntity&gt;();
+var syncManager = new SyncManager(fakeStore);
+</code></pre>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/ProgWolfik/Krejci.Jan.Framework/blob/master/docs/introduction.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/ProgWolfik/Krejci.Jan.Framework/blob/master/docs/advanced-usage.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

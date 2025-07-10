@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Getting Started | SyncEntity Documentation ">
       
-      
+      <meta name="description" content="How to get started using the SyncEntity library for entity synchronization in .NET 8.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -85,8 +85,40 @@
         </div>
 
         <article data-uid="">
-<h1 id="getting-started">Getting Started</h1>
+<h1 id="-getting-started-with-syncentity">🏁 Getting Started with SyncEntity</h1>
 
+<p>Welcome! This guide will walk you step-by-step through getting started with the <strong>SyncEntity</strong> library for <strong>real-time entity synchronization over SignalR</strong> in your .NET applications.</p>
+<hr>
+<h2 id="-installation">📦 Installation</h2>
+<p>First, install the NuGet package:</p>
+<pre><code class="lang-bash">dotnet add package SyncEntity
+</code></pre>
+<h1 id="server-configuration">Server Configuration</h1>
+<h2 id="register-services-in-programcs">Register services in Program.cs:</h2>
+<pre><code class="lang-csharp">builder.Services.AddSignalR();
+builder.Services.AddSyncServer(); // Extension method from the library
+</code></pre>
+<h2 id="add-sync-hub-to-the-endpoints">Add Sync Hub to the endpoints:</h2>
+<pre><code class="lang-csharp">app.MapHub&lt;SyncHub&gt;(&quot;/syncHub&quot;);
+</code></pre>
+<h2 id="-client-connection">💬 Client Connection</h2>
+<pre><code class="lang-csharp">var connection = new HubConnectionBuilder()
+    .WithUrl(&quot;https://localhost:5001/syncHub&quot;)
+    .Build();
+
+var syncClient = new SignalRSyncClient(connection);
+await syncClient.StartAsync();
+</code></pre>
+<h2 id="-sending-and-receiving-changes">🔄 Sending and Receiving Changes</h2>
+<h3 id="sending-an-entity-update">Sending an entity update:</h3>
+<pre><code class="lang-csharp">await syncClient.SendUpdateAsync(new MyEntity { Id = 1, Name = &quot;Updated&quot; });
+</code></pre>
+<h3 id="handling-incoming-updates">Handling incoming updates:</h3>
+<pre><code class="lang-csharp">syncClient.OnUpdate&lt;MyEntity&gt;(entity =&gt;
+{
+    Console.WriteLine($&quot;Received update: {entity.Name}&quot;);
+});
+</code></pre>
 
 </article>
 

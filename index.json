@@ -94,15 +94,25 @@
     "title": "Namespace Krejci.Jan.Framework.SyncEntity.Test.UnitTests | SyncEntity Documentation",
     "summary": "Namespace Krejci.Jan.Framework.SyncEntity.Test.UnitTests Classes ClientCoreSyncStoreTest"
   },
+  "docs/advanced-usage.html": {
+    "href": "docs/advanced-usage.html",
+    "title": "Advanced Usage | SyncEntity Documentation",
+    "summary": "⚙️ Advanced Usage of SyncEntity This page describes more complex scenarios you can handle with the library. \uD83E\uDDEA Testing Synchronization Use FakeSyncStore<T>: var fakeStore = new FakeSyncStore<MyEntity>(); var syncManager = new SyncManager(fakeStore);"
+  },
+  "docs/architecture.html": {
+    "href": "docs/architecture.html",
+    "title": "Architecture | SyncEntity Documentation",
+    "summary": "\uD83E\uDDF1 SyncEntity Architecture The SyncEntity library is built on SignalR and uses reflective detection of entity changes. \uD83D\uDD27 Key Components ISyncManager – manages sending and receiving changes ISyncStore – stores the state of local entities SignalRSyncClient – client connection to the server-side SyncHub SyncHub – SignalR hub on the server that forwards changes to clients ISyncEntity – interface that marks synchronizable entities \uD83D\uDD01 Synchronization Flow Client sends a change → SyncHub Server forwards the change to other clients Each client processes the change via its ISyncStore<T> \uD83E\uDDE0 Extensibility Support for custom implementation of ISyncStore<T> Support for dependency injection and unit testing"
+  },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
     "title": "Getting Started | SyncEntity Documentation",
-    "summary": "Getting Started"
+    "summary": "\uD83C\uDFC1 Getting Started with SyncEntity Welcome! This guide will walk you step-by-step through getting started with the SyncEntity library for real-time entity synchronization over SignalR in your .NET applications. \uD83D\uDCE6 Installation First, install the NuGet package: dotnet add package SyncEntity Server Configuration Register services in Program.cs: builder.Services.AddSignalR(); builder.Services.AddSyncServer(); // Extension method from the library Add Sync Hub to the endpoints: app.MapHub<SyncHub>(\"/syncHub\"); \uD83D\uDCAC Client Connection var connection = new HubConnectionBuilder() .WithUrl(\"https://localhost:5001/syncHub\") .Build(); var syncClient = new SignalRSyncClient(connection); await syncClient.StartAsync(); \uD83D\uDD04 Sending and Receiving Changes Sending an entity update: await syncClient.SendUpdateAsync(new MyEntity { Id = 1, Name = \"Updated\" }); Handling incoming updates: syncClient.OnUpdate<MyEntity>(entity => { Console.WriteLine($\"Received update: {entity.Name}\"); });"
   },
   "docs/introduction.html": {
     "href": "docs/introduction.html",
     "title": "Introduction | SyncEntity Documentation",
-    "summary": "Introduction"
+    "summary": "Introduction SyncEntity is a library for real-time entity synchronization over SignalR in .NET 8 applications. It enables easy sending and receiving of entity changes between clients and the server."
   },
   "index.html": {
     "href": "index.html",
