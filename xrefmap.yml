@@ -504,6 +504,19 @@ references:
   isSpec: "True"
   fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Delete_Entity
   nameWithType: ClientCoreSyncStoreTest.ApplySync_Should_Delete_Entity
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_DoNothing_WhenActionIsUnknown
+  name: ApplySync_Should_DoNothing_WhenActionIsUnknown()
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_ApplySync_Should_DoNothing_WhenActionIsUnknown
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_DoNothing_WhenActionIsUnknown
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_DoNothing_WhenActionIsUnknown()
+  nameWithType: ClientCoreSyncStoreTest.ApplySync_Should_DoNothing_WhenActionIsUnknown()
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_DoNothing_WhenActionIsUnknown*
+  name: ApplySync_Should_DoNothing_WhenActionIsUnknown
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_ApplySync_Should_DoNothing_WhenActionIsUnknown_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_DoNothing_WhenActionIsUnknown
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_DoNothing_WhenActionIsUnknown
+  nameWithType: ClientCoreSyncStoreTest.ApplySync_Should_DoNothing_WhenActionIsUnknown
 - uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_DoNothing_WhenJsonIsNull
   name: ApplySync_Should_DoNothing_WhenJsonIsNull()
   href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_ApplySync_Should_DoNothing_WhenJsonIsNull
@@ -517,19 +530,6 @@ references:
   isSpec: "True"
   fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_DoNothing_WhenJsonIsNull
   nameWithType: ClientCoreSyncStoreTest.ApplySync_Should_DoNothing_WhenJsonIsNull
-- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Handle_Concurrent_Calls
-  name: ApplySync_Should_Handle_Concurrent_Calls()
-  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_ApplySync_Should_Handle_Concurrent_Calls
-  commentId: M:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Handle_Concurrent_Calls
-  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Handle_Concurrent_Calls()
-  nameWithType: ClientCoreSyncStoreTest.ApplySync_Should_Handle_Concurrent_Calls()
-- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Handle_Concurrent_Calls*
-  name: ApplySync_Should_Handle_Concurrent_Calls
-  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_ApplySync_Should_Handle_Concurrent_Calls_
-  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Handle_Concurrent_Calls
-  isSpec: "True"
-  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.ApplySync_Should_Handle_Concurrent_Calls
-  nameWithType: ClientCoreSyncStoreTest.ApplySync_Should_Handle_Concurrent_Calls
 - uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.Initialize_Should_Load_Entities
   name: Initialize_Should_Load_Entities()
   href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncStoreTest_Initialize_Should_Load_Entities
