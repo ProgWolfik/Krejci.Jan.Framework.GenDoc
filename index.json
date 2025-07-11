@@ -84,6 +84,11 @@
     "title": "Namespace Krejci.Jan.Framework.SyncEntity.Server | SyncEntity",
     "summary": "Namespace Krejci.Jan.Framework.SyncEntity.Server Classes DbContextSyncExtensions Extension methods for DbContext to support synchronization notifications. SignalRSyncNotifier Implementation of IEntitySyncNotifier that uses SignalR to notify connected clients about entity changes. Notifications are filtered and sent only to clients belonging to roles that have permission to receive updates for the changed entity types. SyncHub SignalR hub responsible for managing client connections and grouping them by user roles. When a client connects, they are automatically added to a group corresponding to their role. When a client disconnects, they are removed from that group. This allows broadcasting messages selectively to users based on their roles."
   },
+  "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.html": {
+    "href": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.html",
+    "title": "Class ClientCoreSyncManagerTests | SyncEntity",
+    "summary": "Class ClientCoreSyncManagerTests Namespace Krejci.Jan.Framework.SyncEntity.Test.UnitTests Assembly Krejci.Jan.Framework.SyncEntity.Test.dll public class ClientCoreSyncManagerTests Inheritance object ClientCoreSyncManagerTests Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ApplyChangeSet_Should_Create_And_Apply_Store() [Fact] public void ApplyChangeSet_Should_Create_And_Apply_Store() InitializeStores_Should_Create_And_Initialize_Store() [Fact] public void InitializeStores_Should_Create_And_Initialize_Store()"
+  },
   "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html": {
     "href": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html",
     "title": "Class ClientCoreSyncStoreTest | SyncEntity",
@@ -92,7 +97,7 @@
   "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.html": {
     "href": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.html",
     "title": "Namespace Krejci.Jan.Framework.SyncEntity.Test.UnitTests | SyncEntity",
-    "summary": "Namespace Krejci.Jan.Framework.SyncEntity.Test.UnitTests Classes ClientCoreSyncStoreTest"
+    "summary": "Namespace Krejci.Jan.Framework.SyncEntity.Test.UnitTests Classes ClientCoreSyncManagerTests ClientCoreSyncStoreTest"
   },
   "docs/advanced-usage.html": {
     "href": "docs/advanced-usage.html",

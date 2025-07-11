@@ -213,7 +213,7 @@ var assemblies = [
   {
     "name": "Krejci.Jan.Framework.SyncEntity.Client.Core",
     "classes": [
-      { "name": "Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager", "rp": "Krejci.Jan.Framework.SyncEntity.Client.Core_SyncManager.html", "cl": 0, "ucl": 42, "cal": 42, "tl": 126, "cb": 0, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager", "rp": "Krejci.Jan.Framework.SyncEntity.Client.Core_SyncManager.html", "cl": 34, "ucl": 8, "cal": 42, "tl": 126, "cb": 21, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>", "rp": "Krejci.Jan.Framework.SyncEntity.Client.Core_SyncStore_1.html", "cl": 25, "ucl": 0, "cal": 25, "tl": 96, "cb": 10, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
@@ -223,23 +223,9 @@ var metrics = [{ "name": "Crap Score", "abbreviation": "crp", "explanationUrl": 
 var historicCoverageExecutionTimes = [];
 
 var riskHotspotMetrics = [
-      { "name": "Crap Score", "explanationUrl": "https://googletesting.blogspot.de/2011/02/this-code-is-crap.html" },
-      { "name": "Cyclomatic complexity", "explanationUrl": "https://en.wikipedia.org/wiki/Cyclomatic_complexity" },
 ];
 
 var riskHotspots = [
-  {
-    "assembly": "Krejci.Jan.Framework.SyncEntity.Client.Core", "class": "Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager", "reportPath": "Krejci.Jan.Framework.SyncEntity.Client.Core_SyncManager.html", "methodName": "ApplyChangeSet(Krejci.Jan.Framework.SyncEntity.Abstractions.EntityChangeSet)", "methodShortName": "ApplyChangeSet(...)", "fileIndex": 0, "line": 53,
-    "metrics": [
-      { "value": 210, "exceeded": true },
-      { "value": 14, "exceeded": false },
-    ]},
-  {
-    "assembly": "Krejci.Jan.Framework.SyncEntity.Client.Core", "class": "Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager", "reportPath": "Krejci.Jan.Framework.SyncEntity.Client.Core_SyncManager.html", "methodName": "InitializeStores(System.Collections.Generic.IEnumerable`1<Krejci.Jan.Framework.SyncEntity.Abstractions.ISyncEntity>)", "methodShortName": "InitializeStores(...)", "fileIndex": 0, "line": 96,
-    "metrics": [
-      { "value": 110, "exceeded": true },
-      { "value": 10, "exceeded": false },
-    ]},
 ];
 
 var branchCoverageAvailable = true;

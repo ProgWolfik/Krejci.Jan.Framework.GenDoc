@@ -472,6 +472,38 @@ references:
   commentId: N:Krejci.Jan.Framework.SyncEntity.Test.UnitTests
   fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests
   nameWithType: Krejci.Jan.Framework.SyncEntity.Test.UnitTests
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests
+  name: ClientCoreSyncManagerTests
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.html
+  commentId: T:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests
+  nameWithType: ClientCoreSyncManagerTests
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.ApplyChangeSet_Should_Create_And_Apply_Store
+  name: ApplyChangeSet_Should_Create_And_Apply_Store()
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncManagerTests_ApplyChangeSet_Should_Create_And_Apply_Store
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.ApplyChangeSet_Should_Create_And_Apply_Store
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.ApplyChangeSet_Should_Create_And_Apply_Store()
+  nameWithType: ClientCoreSyncManagerTests.ApplyChangeSet_Should_Create_And_Apply_Store()
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.ApplyChangeSet_Should_Create_And_Apply_Store*
+  name: ApplyChangeSet_Should_Create_And_Apply_Store
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncManagerTests_ApplyChangeSet_Should_Create_And_Apply_Store_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.ApplyChangeSet_Should_Create_And_Apply_Store
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.ApplyChangeSet_Should_Create_And_Apply_Store
+  nameWithType: ClientCoreSyncManagerTests.ApplyChangeSet_Should_Create_And_Apply_Store
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.InitializeStores_Should_Create_And_Initialize_Store
+  name: InitializeStores_Should_Create_And_Initialize_Store()
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncManagerTests_InitializeStores_Should_Create_And_Initialize_Store
+  commentId: M:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.InitializeStores_Should_Create_And_Initialize_Store
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.InitializeStores_Should_Create_And_Initialize_Store()
+  nameWithType: ClientCoreSyncManagerTests.InitializeStores_Should_Create_And_Initialize_Store()
+- uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.InitializeStores_Should_Create_And_Initialize_Store*
+  name: InitializeStores_Should_Create_And_Initialize_Store
+  href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.html#Krejci_Jan_Framework_SyncEntity_Test_UnitTests_ClientCoreSyncManagerTests_InitializeStores_Should_Create_And_Initialize_Store_
+  commentId: Overload:Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.InitializeStores_Should_Create_And_Initialize_Store
+  isSpec: "True"
+  fullName: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.InitializeStores_Should_Create_And_Initialize_Store
+  nameWithType: ClientCoreSyncManagerTests.InitializeStores_Should_Create_And_Initialize_Store
 - uid: Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest
   name: ClientCoreSyncStoreTest
   href: api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.html

@@ -250,6 +250,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncManagerTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Krejci.Jan.Framework.SyncEntity.Test.UnitTests.ClientCoreSyncStoreTest.yml",
       "output": {
         ".html": {
