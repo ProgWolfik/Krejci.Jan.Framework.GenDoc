@@ -214,7 +214,7 @@ var assemblies = [
     "name": "Krejci.Jan.Framework.SyncEntity.Client.Core",
     "classes": [
       { "name": "Krejci.Jan.Framework.SyncEntity.Client.Core.SyncManager", "rp": "Krejci.Jan.Framework.SyncEntity.Client.Core_SyncManager.html", "cl": 0, "ucl": 42, "cal": 42, "tl": 126, "cb": 0, "tb": 24, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>", "rp": "Krejci.Jan.Framework.SyncEntity.Client.Core_SyncStore_1.html", "cl": 24, "ucl": 1, "cal": 25, "tl": 96, "cb": 8, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Krejci.Jan.Framework.SyncEntity.Client.Core.SyncStore<T>", "rp": "Krejci.Jan.Framework.SyncEntity.Client.Core_SyncStore_1.html", "cl": 25, "ucl": 0, "cal": 25, "tl": 96, "cb": 9, "tb": 10, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
 ];
 
